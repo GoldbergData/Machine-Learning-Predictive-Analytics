@@ -10,7 +10,7 @@ bottle_df.dropna(subset=["Salnty", "STheta", "T_degC"], inplace=True)
 
 X_train, X_test, y_train, y_test = train_test_split(
     bottle_df[["Salnty", "STheta"]],
-    bottle_df["T_degC"],
+    bottle_df["T_degC"], test_size=.2,
     random_state=0)
 
 X_train = X_train.assign(intercept=1)
@@ -35,10 +35,12 @@ print("Model mean squared error: %.2f"
       % metrics.mean_squared_error(y_train, y_predict_train_sk.y_predict))
 print("Model explained variance: %.2f"
       % metrics.explained_variance_score(y_train, y_predict_train_sk.y_predict))
-print("Model r-squared: %.2f" % metrics.r2_score(y_train, y_predict_train_sk))
+print("Model r-squared: %.2f" % metrics.r2_score(y_train,
+                                                 y_predict_train_sk.y_predict))
 
 print("Holdout mean squared error: %.2f"
       % metrics.mean_squared_error(y_test, y_predict_test_sk.y_predict))
 print("Holdout explained variance: %.2f"
       % metrics.explained_variance_score(y_test, y_predict_test_sk.y_predict))
-print("Holdout r-squared: %.2f" % metrics.r2_score(y_test, y_predict_test_sk))
+print("Holdout r-squared: %.2f" % metrics.r2_score(y_test,
+                                                   y_predict_test_sk.y_predict))

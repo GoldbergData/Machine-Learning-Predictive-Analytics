@@ -22,11 +22,11 @@ y_train = np.asarray(y_train).reshape((len(y_train), 1))
 X_test = scaler.transform(X_test)
 y_test = np.asarray(y_test).reshape((len(y_test), 1))
 
-np.concatenate(np.ones((2, 1)), X_train, axis=1)
-np.c_[np.ones((2, 1)), X_test]
+X_train = np.c_[np.ones((len(X_train), 1)), X_train]
+X_test = np.c_[np.ones((len(X_test), 1)), X_test]
 
-X_train = X_train.assign(intercept=1.0)
-X_test = X_test.assign(intercept=1.0)
+# X_train = X_train.assign(intercept=1.0)
+# X_test = X_test.assign(intercept=1.0)
 
 theta_path_mgd = []
 best_thetas = []
@@ -57,12 +57,19 @@ y_predict_50 = X_test.dot(best_thetas[0])
 y_predict_2000 = X_test.dot(best_thetas[1])
 y_predict_10000 = X_test.dot(best_thetas[2])
 
-print("Holdout mean squared error: %.2f"
-      % metrics.mean_squared_error(y_test, y_predict_10000))
-print("Holdout explained variance: %.2f"
-      % metrics.explained_variance_score(y_test, y_predict_10000))
-print("Holdout r-squared: %.2f" % metrics.r2_score(y_test,
-                                                   y_predict_10000))
+for i in range(len(best_thetas)):
+    print(f'minibatch size: {minibatch_size[i]}')
+    print(f'Coefficients: {best_thetas[i]}')
+    print("\n")
+    print("Holdout mean squared error: %.2f"
+          % metrics.mean_squared_error(y_test, X_test.dot(best_thetas[i])))
+    print("Holdout explained variance: %.2f"
+          % metrics.explained_variance_score(y_test, X_test.dot(best_thetas[
+                                                                    i])))
+    print("Holdout r-squared: %.2f" % metrics.r2_score(y_test,
+                                                       X_test.dot(
+                                                           best_thetas[i])))
+    print("\n")
 
 for epoch in range(n_iterations):
     shuffled_indices = np.random.permutation(m)
@@ -75,5 +82,3 @@ for epoch in range(n_iterations):
                                                               yi)
         theta = theta - eta * gradients
         theta_path_mgd.append(theta)
-
-
