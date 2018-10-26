@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fad51bfe-cdd6-4e61-8998-d225bcece830" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/assignment_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment_4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/joshuagoldberg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/joshuagoldberg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Assignment 4 Joshua Goldberg-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Assignment 4 Joshua Goldberg-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 4 Joshua Goldberg.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 4 Joshua Goldberg.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment_4.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,24 +33,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="1215" />
+          <entry key="Python Console" value="1266" />
           <entry key="gitignore" value="12" />
-          <entry key="py" value="2811" />
+          <entry key="py" value="3127" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="4026" />
+          <entry key="Python" value="4393" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="4" />
+          <entry key="project.open.time.6" value="5" />
           <entry key="project.open.time.7" value="3" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
     </session>
@@ -85,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignment_3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="73" column="70" lean-forward="true" selection-start-line="57" selection-end-line="73" selection-end-column="70" />
+            <state relative-caret-position="1235">
+              <caret line="73" column="70" selection-start-line="57" selection-end-line="73" selection-end-column="70" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -97,10 +96,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignment_4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="114" column="2" selection-start-line="114" selection-start-column="2" selection-end-line="114" selection-end-column="2" />
+            <state relative-caret-position="115">
+              <caret line="177" selection-start-line="177" selection-end-line="177" selection-end-column="27" />
               <folding>
-                <element signature="e#562#580#0" expanded="true" />
+                <element signature="e#554#572#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,26 +157,13 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Machine-Learning-Predictive-Analytics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Machine-Learning-Predictive-Analytics" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -282,11 +268,11 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32857144" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.37551022" />
+      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.37551022" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.49698794" visible="true" weight="0.44871795" />
+      <window_info active="true" anchor="right" id="SciView" order="3" sideWeight="0.49698794" visible="true" weight="0.46398047" />
       <window_info anchor="right" x="0" y="0" width="370" height="850" id="Documentation" order="4" sideWeight="0.50301206" side_tool="true" weight="0.30708182" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
@@ -326,6 +312,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assignment_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1235">
+          <caret line="73" column="70" selection-start-line="57" selection-end-line="73" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../LA-Group-Project-Text-Mining/model_category.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -336,22 +332,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment_3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="73" column="70" lean-forward="true" selection-start-line="57" selection-end-line="73" selection-end-column="70" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignment_4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="114" column="2" selection-start-line="114" selection-start-column="2" selection-end-line="114" selection-end-column="2" />
+        <state relative-caret-position="115">
+          <caret line="177" selection-start-line="177" selection-end-line="177" selection-end-column="27" />
           <folding>
-            <element signature="e#562#580#0" expanded="true" />
+            <element signature="e#554#572#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,10 +1,13 @@
 <component name="ProjectDictionaryState">
   <dictionary name="joshuagoldberg">
     <words>
+      <w>gridsearch</w>
       <w>logit</w>
       <w>minibatch</w>
       <w>pred</w>
       <w>preprocessing</w>
+      <w>proba</w>
+      <w>probs</w>
       <w>rmse</w>
       <w>salnty</w>
       <w>scaler</w>
